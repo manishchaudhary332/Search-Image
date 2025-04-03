@@ -36,7 +36,7 @@ const App = () => {
     <div className="min-h-screen w-full bg-gray-300">
       <div className="p-6  text-center   ">
       <h1 className="text-2xl font-bold mb-4">Search Images</h1>
-      <div className="flex mx-auto w-[500px] gap-2  mb-6">
+      <div className="flex mx-auto max-w-[75vw] gap-2  mb-6">
         <input type="text" placeholder="Search for images..." onChange={handlesearch}  className="flex-1 bg-white p-2 "/>
         <button className="bg-green-400 px-3 py-1 hover:bg-green-800 rounded hover:text-white"  onClick={getdata} >Search</button>
       </div>
