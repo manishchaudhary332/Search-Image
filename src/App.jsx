@@ -43,7 +43,7 @@ const App = () => {
 
       <div className="flex flex-wrap gap-10 w-full  justify-center">
         {data.map((item,index)=>{
-          return <img className="w-[400px] h-[400px] rounded-xl shadow-xl" key={index} src={item.urls.full} alt="" />
+          return <img className="w-[400px] h-[400px] rounded-xl shadow-lg shadow-black hover:scale-101" key={index} src={item.urls.full} alt="" />
         })}
 
 </div>
